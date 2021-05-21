@@ -1,0 +1,60 @@
+h1{
+    color:#50C878;
+    font-size: 100px;
+}
+h3{
+    color:rgb(61, 183, 187);
+    font-size: 25px;
+}
+  body{
+      background: rgb(52, 53, 53);
+  }  
+  .Intro{
+      display:flex ;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      border-style:ridge ; 
+      margin:40px;
+      padding:40px
+  }
+  img{
+      border-style: groove;
+      border-color: rgb(136, 255, 225);
+      
+  }
+  #two{
+      border-style:double;
+      border-color:rgb(0, 191, 255);
+      border-radius: 10mm;
+      text-align: center;
+      width:100mm;
+      background-color:rgb(136, 255, 225);
+      color: rgb(0, 0, 0);
+      
+  }
+  .MyGames{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    border-style:solid;
+    border-color:rgb(36, 255, 225);
+    margin:75px;
+  }
+  .EachGame{
+      display:flex;
+      flex-basis:33%;
+      margin:50px;
+      flex-direction:row;
+  }
+  p{
+      color: cyan;
+      font-size:20px;
+      text-decoration-line:underline;
+      margin: 40px
+  }
+  #identity{
+border:10px cyan solid;
+border-radius:5px ;
+margin-top: 75px;
+  }
